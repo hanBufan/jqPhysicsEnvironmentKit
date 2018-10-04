@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'jqPhysicsEnvironmentKit_Example' do
+  pod 'jqPhysicsEnvironmentKit', :path => '../'
+
+  target 'jqPhysicsEnvironmentKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
