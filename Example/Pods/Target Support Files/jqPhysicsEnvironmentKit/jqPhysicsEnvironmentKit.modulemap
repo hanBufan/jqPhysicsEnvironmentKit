@@ -1,0 +1,6 @@
+framework module jqPhysicsEnvironmentKit {
+  umbrella header "jqPhysicsEnvironmentKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

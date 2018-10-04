@@ -1,0 +1,6 @@
+framework module Pods_jqPhysicsEnvironmentKit_Tests {
+  umbrella header "Pods-jqPhysicsEnvironmentKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

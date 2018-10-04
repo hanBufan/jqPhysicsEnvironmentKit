@@ -1,0 +1,22 @@
+{
+  "name": "jqPhysicsEnvironmentKit",
+  "version": "0.1.0",
+  "summary": "A short description of jqPhysicsEnvironmentKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jeffesonQin/jqPhysicsEnvironmentKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jeffesonQin": "1247006353@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jeffesonQin/jqPhysicsEnvironmentKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "jqPhysicsEnvironmentKit/Classes/**/*"
+}

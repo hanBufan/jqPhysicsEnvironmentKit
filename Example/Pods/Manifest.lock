@@ -1,0 +1,16 @@
+PODS:
+  - jqPhysicsEnvironmentKit (0.1.0)
+
+DEPENDENCIES:
+  - jqPhysicsEnvironmentKit (from `../`)
+
+EXTERNAL SOURCES:
+  jqPhysicsEnvironmentKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  jqPhysicsEnvironmentKit: 3dbbc06101e452cf021bacd39de5024be0f7831a
+
+PODFILE CHECKSUM: e7aa8949b090a06721ccefb4433c6556f2ca4ea6
+
+COCOAPODS: 1.5.3
