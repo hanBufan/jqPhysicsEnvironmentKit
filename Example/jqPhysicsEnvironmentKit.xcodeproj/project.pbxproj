@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B6C96408125C3E39996FA20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2B6C96408125C3E39996FA20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* jqPhysicsEnvironmentKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jqPhysicsEnvironmentKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		6627DD403863F5079503635D /* Pods_jqPhysicsEnvironmentKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jqPhysicsEnvironmentKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		684BE0E27E532FC68559BC16 /* Pods_jqPhysicsEnvironmentKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jqPhysicsEnvironmentKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		720015E8D58BF9E0D2089188 /* Pods-jqPhysicsEnvironmentKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jqPhysicsEnvironmentKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jqPhysicsEnvironmentKit_Tests/Pods-jqPhysicsEnvironmentKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		90F6FB71288B0B1132713249 /* jqPhysicsEnvironmentKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = jqPhysicsEnvironmentKit.podspec; path = ../jqPhysicsEnvironmentKit.podspec; sourceTree = "<group>"; };
+		90F6FB71288B0B1132713249 /* jqPhysicsEnvironmentKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = jqPhysicsEnvironmentKit.podspec; path = ../jqPhysicsEnvironmentKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ADD4C2A02591ECBA1DB608E /* Pods-jqPhysicsEnvironmentKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jqPhysicsEnvironmentKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-jqPhysicsEnvironmentKit_Tests/Pods-jqPhysicsEnvironmentKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B84A0EF0EF2EC053568C90ED /* Pods-jqPhysicsEnvironmentKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jqPhysicsEnvironmentKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jqPhysicsEnvironmentKit_Example/Pods-jqPhysicsEnvironmentKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E64B2D91ADA0F6D32F1B7EA9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E64B2D91ADA0F6D32F1B7EA9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MM7G949396;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -469,6 +470,7 @@
 			baseConfigurationReference = B84A0EF0EF2EC053568C90ED /* Pods-jqPhysicsEnvironmentKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MM7G949396;
 				INFOPLIST_FILE = jqPhysicsEnvironmentKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -484,6 +486,7 @@
 			baseConfigurationReference = 62A7C88C70F80BB4F9BA2ACC /* Pods-jqPhysicsEnvironmentKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MM7G949396;
 				INFOPLIST_FILE = jqPhysicsEnvironmentKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

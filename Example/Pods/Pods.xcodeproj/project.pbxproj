@@ -12,10 +12,38 @@
 		31FB11882B2958441708AAF4E8E7CD0F /* jqPhysicsEnvironmentKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 731D32196C9469BC6360ECD9EA500EDE /* jqPhysicsEnvironmentKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		379C3E6714D661557AD4D0D94A52C7C0 /* jqPhysicsEnvironmentKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B11F03633C3C8BFEA7C00B20DE1D91DF /* jqPhysicsEnvironmentKit-dummy.m */; };
 		54CCFDF93D509FA06B4C6D4A74B675A6 /* Pods-jqPhysicsEnvironmentKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AADABF866A7A9696E6F3D1FD7DDAB51D /* Pods-jqPhysicsEnvironmentKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84DCE16D2166626B00B529E5 /* jqPhysicsQuantityOperationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE14A2166626A00B529E5 /* jqPhysicsQuantityOperationExtension.swift */; };
+		84DCE16E2166626B00B529E5 /* jqPhysicsQuantity2DvalueTypeOperationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE14B2166626A00B529E5 /* jqPhysicsQuantity2DvalueTypeOperationExtension.swift */; };
+		84DCE16F2166626B00B529E5 /* jqPhysicsQuantity2DBQIAOperationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE14C2166626A00B529E5 /* jqPhysicsQuantity2DBQIAOperationExtension.swift */; };
+		84DCE1702166626B00B529E5 /* jqPhysicsQuantityTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE14D2166626A00B529E5 /* jqPhysicsQuantityTypes.swift */; };
+		84DCE1712166626B00B529E5 /* jqPhysicsQuantity2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE14E2166626A00B529E5 /* jqPhysicsQuantity2D.swift */; };
+		84DCE1722166626B00B529E5 /* UIAnimationVerticalDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1502166626B00B529E5 /* UIAnimationVerticalDirection.swift */; };
+		84DCE1732166626B00B529E5 /* UIAnimationRotationDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1512166626B00B529E5 /* UIAnimationRotationDirection.swift */; };
+		84DCE1742166626B00B529E5 /* UIAnimationHorizontalDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1522166626B00B529E5 /* UIAnimationHorizontalDirection.swift */; };
+		84DCE1752166626B00B529E5 /* UIViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1532166626B00B529E5 /* UIViewAnimation.swift */; };
+		84DCE1762166626B00B529E5 /* Configration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1552166626B00B529E5 /* Configration.swift */; };
+		84DCE1772166626B00B529E5 /* MathExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1572166626B00B529E5 /* MathExtenstion.swift */; };
+		84DCE1782166626B00B529E5 /* UIDestructiveAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1592166626B00B529E5 /* UIDestructiveAlertAction.swift */; };
+		84DCE1792166626B00B529E5 /* UISheetAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE15A2166626B00B529E5 /* UISheetAlertController.swift */; };
+		84DCE17A2166626B00B529E5 /* UICustomAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE15B2166626B00B529E5 /* UICustomAlertController.swift */; };
+		84DCE17B2166626B00B529E5 /* UICustomAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE15C2166626B00B529E5 /* UICustomAlertAction.swift */; };
+		84DCE17C2166626B00B529E5 /* UIntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE15E2166626B00B529E5 /* UIntExtension.swift */; };
+		84DCE17D2166626B00B529E5 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE15F2166626B00B529E5 /* IntExtension.swift */; };
+		84DCE17E2166626B00B529E5 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1602166626B00B529E5 /* UIViewControllerExtension.swift */; };
+		84DCE17F2166626B00B529E5 /* UCGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1612166626B00B529E5 /* UCGFloat.swift */; };
+		84DCE1802166626B00B529E5 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1622166626B00B529E5 /* UIViewExtension.swift */; };
+		84DCE1812166626B00B529E5 /* CharacterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1632166626B00B529E5 /* CharacterExtension.swift */; };
+		84DCE1822166626B00B529E5 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1642166626B00B529E5 /* StringExtension.swift */; };
+		84DCE1832166626B00B529E5 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1652166626B00B529E5 /* UIImageExtension.swift */; };
+		84DCE1842166626B00B529E5 /* UCGFloatOperatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1662166626B00B529E5 /* UCGFloatOperatorExtension.swift */; };
+		84DCE1852166626B00B529E5 /* UIVector2DOperatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1682166626B00B529E5 /* UIVector2DOperatorExtension.swift */; };
+		84DCE1862166626B00B529E5 /* UIAngle2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1692166626B00B529E5 /* UIAngle2D.swift */; };
+		84DCE1872166626B00B529E5 /* UIVector2DMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE16A2166626B00B529E5 /* UIVector2DMath.swift */; };
+		84DCE1882166626B00B529E5 /* UIAngle2DOperationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE16B2166626B00B529E5 /* UIAngle2DOperationExtension.swift */; };
+		84DCE1892166626B00B529E5 /* UIVector2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE16C2166626B00B529E5 /* UIVector2D.swift */; };
 		8A4F2E2AD0D12F1571B6C3C9462C89F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		8BD08719ACD1B8ABB4D27C8092EFBC6E /* Pods-jqPhysicsEnvironmentKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A7D9099B67F8F6255D532F646D9C22 /* Pods-jqPhysicsEnvironmentKit_Example-dummy.m */; };
 		B15545EB1B45A0B6F530E2B13E616A3C /* Pods-jqPhysicsEnvironmentKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D03BAAA9F501933CCAFAB99F608728 /* Pods-jqPhysicsEnvironmentKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1635AAA0F17E925EE6D585C6F42DA79 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F8E99BBE03D0398BACDA79065E70D1 /* ReplaceMe.swift */; };
 		DBA0F4E9A372F4FF55275196D1DCDD94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,36 +66,64 @@
 
 /* Begin PBXFileReference section */
 		006EC80152AB0D8A2A2DED1B1579F390 /* Pods-jqPhysicsEnvironmentKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jqPhysicsEnvironmentKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		01F8E99BBE03D0398BACDA79065E70D1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = jqPhysicsEnvironmentKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1532DC9F5FDEB47081AED1C7538C698A /* Pods-jqPhysicsEnvironmentKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jqPhysicsEnvironmentKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		16D03BAAA9F501933CCAFAB99F608728 /* Pods-jqPhysicsEnvironmentKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jqPhysicsEnvironmentKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		27B264A846814D950A52B43BB0FCD5DD /* Pods-jqPhysicsEnvironmentKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jqPhysicsEnvironmentKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2DA73E25A7809F7465B077632992FB03 /* jqPhysicsEnvironmentKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = jqPhysicsEnvironmentKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2DA73E25A7809F7465B077632992FB03 /* jqPhysicsEnvironmentKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = jqPhysicsEnvironmentKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		37BD9CCB20354058BA6A7DF4F62E8D39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		420171DA560E9B7ED1140C36BD25E006 /* Pods-jqPhysicsEnvironmentKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jqPhysicsEnvironmentKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		446DCA42B69917A2B0794EE5D1C315FF /* Pods-jqPhysicsEnvironmentKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jqPhysicsEnvironmentKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		52A7D9099B67F8F6255D532F646D9C22 /* Pods-jqPhysicsEnvironmentKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jqPhysicsEnvironmentKit_Example-dummy.m"; sourceTree = "<group>"; };
 		55DFA14E07E12D90DE1C4EB3C29DE842 /* Pods-jqPhysicsEnvironmentKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jqPhysicsEnvironmentKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		57DB89F50D9EAEC358303FDDAB4FFEDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		57DB89F50D9EAEC358303FDDAB4FFEDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		65A99E892DC4C2A14D286D2EE09260CC /* Pods_jqPhysicsEnvironmentKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_jqPhysicsEnvironmentKit_Tests.framework; path = "Pods-jqPhysicsEnvironmentKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A99E892DC4C2A14D286D2EE09260CC /* Pods_jqPhysicsEnvironmentKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jqPhysicsEnvironmentKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		690065D17463B2F69C5630CFDD4463BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		731D32196C9469BC6360ECD9EA500EDE /* jqPhysicsEnvironmentKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jqPhysicsEnvironmentKit-umbrella.h"; sourceTree = "<group>"; };
-		7C98630B82429161C03042F29B190AE3 /* Pods_jqPhysicsEnvironmentKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_jqPhysicsEnvironmentKit_Example.framework; path = "Pods-jqPhysicsEnvironmentKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C98630B82429161C03042F29B190AE3 /* Pods_jqPhysicsEnvironmentKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jqPhysicsEnvironmentKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		802E0325A730646E053D4E48D8A5AED7 /* Pods-jqPhysicsEnvironmentKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jqPhysicsEnvironmentKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		80A230B22C3A84CB0A66BA43982D7724 /* Pods-jqPhysicsEnvironmentKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jqPhysicsEnvironmentKit_Example-resources.sh"; sourceTree = "<group>"; };
 		82E085B14B72447E5F82188B9ACC2C72 /* Pods-jqPhysicsEnvironmentKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jqPhysicsEnvironmentKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		84DCE14A2166626A00B529E5 /* jqPhysicsQuantityOperationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jqPhysicsQuantityOperationExtension.swift; sourceTree = "<group>"; };
+		84DCE14B2166626A00B529E5 /* jqPhysicsQuantity2DvalueTypeOperationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jqPhysicsQuantity2DvalueTypeOperationExtension.swift; sourceTree = "<group>"; };
+		84DCE14C2166626A00B529E5 /* jqPhysicsQuantity2DBQIAOperationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jqPhysicsQuantity2DBQIAOperationExtension.swift; sourceTree = "<group>"; };
+		84DCE14D2166626A00B529E5 /* jqPhysicsQuantityTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jqPhysicsQuantityTypes.swift; sourceTree = "<group>"; };
+		84DCE14E2166626A00B529E5 /* jqPhysicsQuantity2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jqPhysicsQuantity2D.swift; sourceTree = "<group>"; };
+		84DCE1502166626B00B529E5 /* UIAnimationVerticalDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAnimationVerticalDirection.swift; sourceTree = "<group>"; };
+		84DCE1512166626B00B529E5 /* UIAnimationRotationDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAnimationRotationDirection.swift; sourceTree = "<group>"; };
+		84DCE1522166626B00B529E5 /* UIAnimationHorizontalDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAnimationHorizontalDirection.swift; sourceTree = "<group>"; };
+		84DCE1532166626B00B529E5 /* UIViewAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnimation.swift; sourceTree = "<group>"; };
+		84DCE1552166626B00B529E5 /* Configration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configration.swift; sourceTree = "<group>"; };
+		84DCE1572166626B00B529E5 /* MathExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathExtenstion.swift; sourceTree = "<group>"; };
+		84DCE1592166626B00B529E5 /* UIDestructiveAlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDestructiveAlertAction.swift; sourceTree = "<group>"; };
+		84DCE15A2166626B00B529E5 /* UISheetAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISheetAlertController.swift; sourceTree = "<group>"; };
+		84DCE15B2166626B00B529E5 /* UICustomAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICustomAlertController.swift; sourceTree = "<group>"; };
+		84DCE15C2166626B00B529E5 /* UICustomAlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICustomAlertAction.swift; sourceTree = "<group>"; };
+		84DCE15E2166626B00B529E5 /* UIntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIntExtension.swift; sourceTree = "<group>"; };
+		84DCE15F2166626B00B529E5 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		84DCE1602166626B00B529E5 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		84DCE1612166626B00B529E5 /* UCGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCGFloat.swift; sourceTree = "<group>"; };
+		84DCE1622166626B00B529E5 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		84DCE1632166626B00B529E5 /* CharacterExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterExtension.swift; sourceTree = "<group>"; };
+		84DCE1642166626B00B529E5 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		84DCE1652166626B00B529E5 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		84DCE1662166626B00B529E5 /* UCGFloatOperatorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCGFloatOperatorExtension.swift; sourceTree = "<group>"; };
+		84DCE1682166626B00B529E5 /* UIVector2DOperatorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVector2DOperatorExtension.swift; sourceTree = "<group>"; };
+		84DCE1692166626B00B529E5 /* UIAngle2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAngle2D.swift; sourceTree = "<group>"; };
+		84DCE16A2166626B00B529E5 /* UIVector2DMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVector2DMath.swift; sourceTree = "<group>"; };
+		84DCE16B2166626B00B529E5 /* UIAngle2DOperationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAngle2DOperationExtension.swift; sourceTree = "<group>"; };
+		84DCE16C2166626B00B529E5 /* UIVector2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVector2D.swift; sourceTree = "<group>"; };
 		89C05AFE515C4CAF887DB2D8C2E0ECE8 /* Pods-jqPhysicsEnvironmentKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-jqPhysicsEnvironmentKit_Example.modulemap"; sourceTree = "<group>"; };
 		8AA9188B5432CD8CCED188E3028FDD4F /* Pods-jqPhysicsEnvironmentKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jqPhysicsEnvironmentKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		8C12CB7DAF11A5845797AFDCA471A25F /* jqPhysicsEnvironmentKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = jqPhysicsEnvironmentKit.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA7D31D1C5BE59711CBA7F401FDF5B0B /* Pods-jqPhysicsEnvironmentKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jqPhysicsEnvironmentKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AADABF866A7A9696E6F3D1FD7DDAB51D /* Pods-jqPhysicsEnvironmentKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jqPhysicsEnvironmentKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		AE7747598082CDA10327BD9418A3B1ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AE7747598082CDA10327BD9418A3B1ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B11F03633C3C8BFEA7C00B20DE1D91DF /* jqPhysicsEnvironmentKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "jqPhysicsEnvironmentKit-dummy.m"; sourceTree = "<group>"; };
 		B5F07291814DA1FB2BD63BF87F3C5C58 /* Pods-jqPhysicsEnvironmentKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-jqPhysicsEnvironmentKit_Tests.modulemap"; sourceTree = "<group>"; };
 		C358F36BC9F6A06988FC79851B6ED9A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCBB4E903C2610E46882B0E231B0A524 /* jqPhysicsEnvironmentKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = jqPhysicsEnvironmentKit.framework; path = jqPhysicsEnvironmentKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBB4E903C2610E46882B0E231B0A524 /* jqPhysicsEnvironmentKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jqPhysicsEnvironmentKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF3333A640ECA94DB971636C98F57C9 /* Pods-jqPhysicsEnvironmentKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jqPhysicsEnvironmentKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D75A9EB808479E5BE406068C9D332EDF /* jqPhysicsEnvironmentKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = jqPhysicsEnvironmentKit.modulemap; sourceTree = "<group>"; };
 		DCB3AF1D20FE0C4D38C8A7C13AD929E8 /* Pods-jqPhysicsEnvironmentKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jqPhysicsEnvironmentKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -148,6 +204,91 @@
 			);
 			sourceTree = "<group>";
 		};
+		84DCE1492166626A00B529E5 /* jqPhysicsQuantity */ = {
+			isa = PBXGroup;
+			children = (
+				84DCE14A2166626A00B529E5 /* jqPhysicsQuantityOperationExtension.swift */,
+				84DCE14B2166626A00B529E5 /* jqPhysicsQuantity2DvalueTypeOperationExtension.swift */,
+				84DCE14C2166626A00B529E5 /* jqPhysicsQuantity2DBQIAOperationExtension.swift */,
+				84DCE14D2166626A00B529E5 /* jqPhysicsQuantityTypes.swift */,
+				84DCE14E2166626A00B529E5 /* jqPhysicsQuantity2D.swift */,
+			);
+			name = jqPhysicsQuantity;
+			path = jqPhysicsEnvironmentKit/Classes/jqPhysicsQuantity;
+			sourceTree = "<group>";
+		};
+		84DCE14F2166626B00B529E5 /* UIViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				84DCE1502166626B00B529E5 /* UIAnimationVerticalDirection.swift */,
+				84DCE1512166626B00B529E5 /* UIAnimationRotationDirection.swift */,
+				84DCE1522166626B00B529E5 /* UIAnimationHorizontalDirection.swift */,
+				84DCE1532166626B00B529E5 /* UIViewAnimation.swift */,
+			);
+			name = UIViewAnimation;
+			path = jqPhysicsEnvironmentKit/Classes/UIViewAnimation;
+			sourceTree = "<group>";
+		};
+		84DCE1542166626B00B529E5 /* Configration */ = {
+			isa = PBXGroup;
+			children = (
+				84DCE1552166626B00B529E5 /* Configration.swift */,
+			);
+			name = Configration;
+			path = jqPhysicsEnvironmentKit/Classes/Configration;
+			sourceTree = "<group>";
+		};
+		84DCE1562166626B00B529E5 /* Math Class */ = {
+			isa = PBXGroup;
+			children = (
+				84DCE1572166626B00B529E5 /* MathExtenstion.swift */,
+			);
+			name = "Math Class";
+			path = "jqPhysicsEnvironmentKit/Classes/Math Class";
+			sourceTree = "<group>";
+		};
+		84DCE1582166626B00B529E5 /* UIAlertControllerExtension */ = {
+			isa = PBXGroup;
+			children = (
+				84DCE1592166626B00B529E5 /* UIDestructiveAlertAction.swift */,
+				84DCE15A2166626B00B529E5 /* UISheetAlertController.swift */,
+				84DCE15B2166626B00B529E5 /* UICustomAlertController.swift */,
+				84DCE15C2166626B00B529E5 /* UICustomAlertAction.swift */,
+			);
+			name = UIAlertControllerExtension;
+			path = jqPhysicsEnvironmentKit/Classes/UIAlertControllerExtension;
+			sourceTree = "<group>";
+		};
+		84DCE15D2166626B00B529E5 /* UITypeExtension */ = {
+			isa = PBXGroup;
+			children = (
+				84DCE15E2166626B00B529E5 /* UIntExtension.swift */,
+				84DCE15F2166626B00B529E5 /* IntExtension.swift */,
+				84DCE1602166626B00B529E5 /* UIViewControllerExtension.swift */,
+				84DCE1612166626B00B529E5 /* UCGFloat.swift */,
+				84DCE1622166626B00B529E5 /* UIViewExtension.swift */,
+				84DCE1632166626B00B529E5 /* CharacterExtension.swift */,
+				84DCE1642166626B00B529E5 /* StringExtension.swift */,
+				84DCE1652166626B00B529E5 /* UIImageExtension.swift */,
+				84DCE1662166626B00B529E5 /* UCGFloatOperatorExtension.swift */,
+			);
+			name = UITypeExtension;
+			path = jqPhysicsEnvironmentKit/Classes/UITypeExtension;
+			sourceTree = "<group>";
+		};
+		84DCE1672166626B00B529E5 /* UIVector2DExtnesion */ = {
+			isa = PBXGroup;
+			children = (
+				84DCE1682166626B00B529E5 /* UIVector2DOperatorExtension.swift */,
+				84DCE1692166626B00B529E5 /* UIAngle2D.swift */,
+				84DCE16A2166626B00B529E5 /* UIVector2DMath.swift */,
+				84DCE16B2166626B00B529E5 /* UIAngle2DOperationExtension.swift */,
+				84DCE16C2166626B00B529E5 /* UIVector2D.swift */,
+			);
+			name = UIVector2DExtnesion;
+			path = jqPhysicsEnvironmentKit/Classes/UIVector2DExtnesion;
+			sourceTree = "<group>";
+		};
 		9F76C302E839CD7579F9A095829E5E31 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,7 +346,13 @@
 		DD68A8402D5BD50E01BD797DB587DF44 /* jqPhysicsEnvironmentKit */ = {
 			isa = PBXGroup;
 			children = (
-				01F8E99BBE03D0398BACDA79065E70D1 /* ReplaceMe.swift */,
+				84DCE1542166626B00B529E5 /* Configration */,
+				84DCE1492166626A00B529E5 /* jqPhysicsQuantity */,
+				84DCE1562166626B00B529E5 /* Math Class */,
+				84DCE1582166626B00B529E5 /* UIAlertControllerExtension */,
+				84DCE15D2166626B00B529E5 /* UITypeExtension */,
+				84DCE1672166626B00B529E5 /* UIVector2DExtnesion */,
+				84DCE14F2166626B00B529E5 /* UIViewAnimation */,
 				9F76C302E839CD7579F9A095829E5E31 /* Pod */,
 				FA2E9F20CCF4BACE304C20C6F69F005F /* Support Files */,
 			);
@@ -318,6 +465,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					036053186959BAA6B6A9434E6A48B659 = {
+						DevelopmentTeam = MM7G949396;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,8 +495,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DCE1702166626B00B529E5 /* jqPhysicsQuantityTypes.swift in Sources */,
+				84DCE1842166626B00B529E5 /* UCGFloatOperatorExtension.swift in Sources */,
+				84DCE1712166626B00B529E5 /* jqPhysicsQuantity2D.swift in Sources */,
+				84DCE16F2166626B00B529E5 /* jqPhysicsQuantity2DBQIAOperationExtension.swift in Sources */,
+				84DCE1812166626B00B529E5 /* CharacterExtension.swift in Sources */,
+				84DCE17B2166626B00B529E5 /* UICustomAlertAction.swift in Sources */,
+				84DCE17A2166626B00B529E5 /* UICustomAlertController.swift in Sources */,
+				84DCE17D2166626B00B529E5 /* IntExtension.swift in Sources */,
+				84DCE1742166626B00B529E5 /* UIAnimationHorizontalDirection.swift in Sources */,
+				84DCE1722166626B00B529E5 /* UIAnimationVerticalDirection.swift in Sources */,
+				84DCE1762166626B00B529E5 /* Configration.swift in Sources */,
+				84DCE1782166626B00B529E5 /* UIDestructiveAlertAction.swift in Sources */,
+				84DCE17F2166626B00B529E5 /* UCGFloat.swift in Sources */,
+				84DCE1772166626B00B529E5 /* MathExtenstion.swift in Sources */,
+				84DCE1882166626B00B529E5 /* UIAngle2DOperationExtension.swift in Sources */,
+				84DCE1732166626B00B529E5 /* UIAnimationRotationDirection.swift in Sources */,
+				84DCE1862166626B00B529E5 /* UIAngle2D.swift in Sources */,
+				84DCE16E2166626B00B529E5 /* jqPhysicsQuantity2DvalueTypeOperationExtension.swift in Sources */,
+				84DCE1852166626B00B529E5 /* UIVector2DOperatorExtension.swift in Sources */,
 				379C3E6714D661557AD4D0D94A52C7C0 /* jqPhysicsEnvironmentKit-dummy.m in Sources */,
-				B1635AAA0F17E925EE6D585C6F42DA79 /* ReplaceMe.swift in Sources */,
+				84DCE16D2166626B00B529E5 /* jqPhysicsQuantityOperationExtension.swift in Sources */,
+				84DCE1872166626B00B529E5 /* UIVector2DMath.swift in Sources */,
+				84DCE1792166626B00B529E5 /* UISheetAlertController.swift in Sources */,
+				84DCE17E2166626B00B529E5 /* UIViewControllerExtension.swift in Sources */,
+				84DCE1802166626B00B529E5 /* UIViewExtension.swift in Sources */,
+				84DCE1752166626B00B529E5 /* UIViewAnimation.swift in Sources */,
+				84DCE1892166626B00B529E5 /* UIVector2D.swift in Sources */,
+				84DCE1822166626B00B529E5 /* StringExtension.swift in Sources */,
+				84DCE17C2166626B00B529E5 /* UIntExtension.swift in Sources */,
+				84DCE1832166626B00B529E5 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,12 +788,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8C12CB7DAF11A5845797AFDCA471A25F /* jqPhysicsEnvironmentKit.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MM7G949396;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
